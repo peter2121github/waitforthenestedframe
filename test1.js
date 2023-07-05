@@ -37,6 +37,7 @@ function waitForKeyElements (
         targetNodes     = $(selectorTxt);
     else{
         targetNodes     = $(iframeSelector);
+        alert(iframeSelector + "," + targetNodes);
        if (targetNodes){
       targetNodes = targetNodes.contents ().find (selectorTxt);
        }
